@@ -20,5 +20,5 @@ jobs:
         with:
           node-version: 20
 
-      - name: Show a success message
-        run: echo "My first CI/CD pipeline is working!"
+      - name: Run my test
+        run: node test.js
